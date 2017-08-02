@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/open_cv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/opencv"/>
+
+    <Button
+        android:id="@+id/camera_api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/open_cv"
+        android:layout_centerHorizontal="true"
+        android:text="@string/camera_api"/>
+
+    <Button
+        android:id="@+id/media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camera_api"
+        android:layout_centerHorizontal="true"
+        android:text="@string/media"/>
+
+    <Button
+        android:id="@+id/vision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/media"
+        android:layout_centerHorizontal="true"
+        android:text="@string/vision"/>
+
+    <Button
+        android:id="@+id/vision_face_outline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vision"
+        android:layout_centerHorizontal="true"
+        android:text="@string/vision_face_outline"/>
+
+</RelativeLayout>

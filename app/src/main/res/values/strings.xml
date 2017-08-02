@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Jupiter-Face-Detection</string>
+    <string name="opencv">OpenCV</string>
+    <string name="switch_camera">switch camera</string>
+    <string name="camera_api">Camera API</string>
+    <string name="media">Media API</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="vision">Vision API</string>
+    <string name="vision_face_outline">vision face outline</string>
+</resources>
