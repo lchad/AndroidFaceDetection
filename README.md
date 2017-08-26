@@ -19,7 +19,8 @@
   - 底层代码:android/external/neven/
   - 只能接受Bitmap 格式的数据.
   - Bitmap 编码格式必须为Bitmap.Config.RGB_565.
-  - 只能识别双眼距离大于20 像素的人脸像,这个限制应该可以在 FrameWork 中做修改.
+  - Bitmap 的宽度一定要是整数.
+  - 只能识别双眼距离大于20 像素的人脸像,这个限制应该可以在 FrameWork 中做修改.
   - 文档:https://developer.android.google.com/reference/android/media/FaceDetector.html
 - Google Play Service 的 Vision API (API 9,在 API 17 增加了一些功能)
   - 非常强大,效果基本能和 Camera API 持平.
