@@ -32,6 +32,9 @@
   - 可以识别头部姿势.
   - 手机必须安装了 Google 服务框架才能使用.
   - 文档:https://developers.google.com/vision/face-detection-concepts
+
+- Google MLKit face detection
+  - https://developers.google.cn/ml-kit/vision/face-detection/android
 - Face++ Android SDK
   - 试用需要发邮件申请.
   - 文档很挫.
